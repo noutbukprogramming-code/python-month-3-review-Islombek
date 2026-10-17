@@ -1,6 +1,7 @@
-words = [ 'python', 'python', 'c', 'java', 'python', 'java']
-count_words ={} 
-for word in words:
-    count_words[word] = count_words.get(word, 0) + 1
+words = input("So'zlarni kiriting: ").split()
+
+count_words = {} 
+for key in words:
+    count_words[key] = count_words.get(key, 0) + 1
 
 print(count_words)
