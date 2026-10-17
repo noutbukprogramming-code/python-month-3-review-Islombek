@@ -1,7 +1,7 @@
 sonlar = list(map(int, input().split()))
 
-juft_sonlar = list(filter(lambda son: son % 2 == 0, sonlar))
-kvadratlari = list(map(lambda son: son ** 2, juft_sonlar))
+juftlar = list(filter(lambda son: son % 2 == 0, sonlar))
+kvadrati = list(map(lambda son: son ** 2, juftlar))
 
-print("Juft sonlar:", juft_sonlar)
-print("Kvadratlari:", kvadratlari)
+print("Juft sonlar:", juftlar)
+print("Kvadratlari:", kvadrati)
